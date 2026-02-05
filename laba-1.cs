@@ -43,8 +43,7 @@ class Program {
     if (TryTransformNumber(theEnteredNumber, out string transformedNumber)) {
       Console.WriteLine($"The original number: {theEnteredNumber}");
       Console.WriteLine($"Conversion result: {transformedNumber}");
-    }
-    else {
+    } else {
       Console.WriteLine($"Mistake: The number must contain more than two digits");
     }
 
